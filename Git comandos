@@ -1,0 +1,55 @@
+# 🚀 Guia de Comandos Git
+
+Um guia rápido com os principais comandos do **Git** organizados em tabelas.  
+Clique nos links abaixo para navegar:  
+
+- [🔹 Comandos Iniciais](#-comandos-iniciais)  
+- [🔹 Adicionando Arquivos](#-adicionando-arquivos)  
+- [🔹 Salvando Alterações (Commit)](#-salvando-alterações-commit)  
+- [🔹 Conectar ao GitHub](#-conectar-ao-github)  
+- [🔹 Atualizar Repositório](#-atualizar-repositório)  
+
+---
+
+## 🔹 Comandos Iniciais
+| **Comando**            | **Descrição** |
+|-------------------------|---------------|
+| `git init`             | Inicia um novo repositório Git na pasta atual |
+| `git clone URL`        | Clona (baixa) um repositório remoto para sua máquina |
+| `git status`           | Mostra o status dos arquivos (modificados, não rastreados etc.) |
+
+---
+
+## 🔹 Adicionando Arquivos
+| **Comando**                | **Descrição** |
+|-----------------------------|---------------|
+| `git add .`                 | Adiciona **todos** os arquivos modificados |
+| `git add NOME_ARQUIVO`      | Adiciona apenas um arquivo específico |
+
+---
+
+## 🔹 Salvando Alterações (Commit)
+| **Comando**                  | **Descrição** |
+|-------------------------------|---------------|
+| `git commit -m "mensagem"`    | Cria um commit com mensagem descritiva |
+| `git log`                     | Mostra o histórico de commits |
+
+---
+
+## 🔹 Conectar ao GitHub
+| **Comando**                          | **Descrição** |
+|---------------------------------------|---------------|
+| `git remote add origin URL`           | Conecta seu projeto local ao repositório do GitHub |
+| `git branch -M main`                  | Renomeia a branch principal para `main` |
+| `git push -u origin main`             | Envia o projeto para o GitHub pela primeira vez |
+
+---
+
+## 🔹 Atualizar Repositório
+| **Comando**     | **Descrição** |
+|-----------------|---------------|
+| `git pull`      | Atualiza seu repositório local com o remoto |
+| `git push`      | Envia as alterações locais para o GitHub |
+
+---
+✨ Agora o senhor tem um guia rápido e visual de Git para deixar direto no seu repositório.
